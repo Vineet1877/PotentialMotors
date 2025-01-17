@@ -1,0 +1,153 @@
+.contact-upper-part {
+  text-align: center;
+  width: 60%;
+  font-size: 34px;
+  padding: 60px 0px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  width: 92%;
+  padding: 8% 4%;
+  background-color: #758a61;
+  justify-content: space-around;
+}
+
+.info-container {
+  line-height: 1;
+  width: 400px;
+  color: white;
+}
+
+.info-container h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.info-container p {
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.form {
+  width: 100vh;
+  padding: 10px;
+  display: block;
+}
+
+.form div {
+  padding: 4px 0px;
+}
+
+label {
+  font-family: sans-serif;
+  color: white;
+  font-size: 16px;
+}
+
+.full-name {
+  display: flex;
+  flex-direction: row;
+}
+
+.full-name div {
+  flex: 1;
+}
+
+.full-name input {
+  width: 80%;
+}
+
+#email {
+  width: 95%;
+  font-family: sans-serif;
+  padding: 15px 0px;
+}
+
+textarea {
+  width: 95%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  font-family: Visby;
+  font-size: 14px;
+}
+
+label span {
+  filter: brightness(80%);
+}
+
+.submit {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 20px 40px;
+  margin-top: 10%;
+}
+
+.spacing {
+  margin: 20px 0px;
+}
+
+.radio-container {
+  display: inline;
+  background-color: antiquewhite;
+}
+
+/* Design for tab */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .contact-upper-part {
+    width: 60%;
+    font-size: 28px;
+  }
+
+  .form-container {
+    flex-direction: column;
+  }
+
+  .form {
+    width: 70vh;
+    padding: 10px;
+    display: block;
+  }
+}
+
+/* Design for mobile */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .contact-upper-part {
+    width: 80%;
+    font-size: 24px;
+  }
+
+  .info-container {
+    width: 250px;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+
+  .form-container {
+    flex-direction: column;
+  }
+
+  .form {
+    width: 42vh;
+    display: block;
+  }
+
+  .full-name input {
+    width: 65%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 350px) {
+  .form {
+    width: 35vh;
+    display: block;
+  }
+
+  .full-name input {
+    width: 60%;
+  }
+}
